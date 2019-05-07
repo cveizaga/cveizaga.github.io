@@ -1,0 +1,168 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 25px 0px 0px 0px;
+}
+/*orientado al menu*/
+.menu {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(150, 150, 150, 0.85);
+  overflow-y: hidden;
+  transition: 0.9s;
+}
+
+.menu-contenido {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.menu a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #FFF;
+  text-shadow: 0px 3px 5px rgba(31, 31, 31, 0.4);
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.menu a:hover, .menu a:focus {
+  color:);
+  text-shadow: 0px 3px 5px rgb(43, 172, 218);
+
+}
+
+.menu .cerrar {
+  position: absolute;
+  top: 25px;
+  right: 5%;
+  font-size: 60px;
+}
+.icono{
+  font-size: 2.8em;
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  right: 3%;
+  top:6.5%;
+}
+
+/*fin menu*/
+
+nav img{
+  width: auto;
+  height: 150px;
+  margin-left: 5px;
+  top: 15px;
+}
+
+/*galeria*/
+#slides{
+	position: relative;
+	height: 565px;
+  padding: 0px;
+	margin: 0 10%;
+	list-style-type: none;
+}
+
+.slide{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: auto;
+	opacity: 0;
+	-webkit-transition: opacity 1.5s;
+	-moz-transition: opacity 1.5s;
+	-o-transition: opacity 1.5s;
+	transition: opacity 1.5s;
+}
+
+.showing{
+	opacity: 1;
+}
+
+section{
+  height: 250px;
+}
+section h1{
+  text-align: center;
+  font-size: 2em;
+}
+section p{
+  text-align: justify;
+  margin:0 20%;
+}
+
+footer{
+  width: 100%;
+  background: #282828;
+  color: #FFF;
+  height: 50px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+/*Estilos formulario*/
+
+#formulario {
+    width:20%;
+    margin-left: 5.6%;
+    font-size: .8em;
+    padding:15px 90px 50px 15px;
+}
+#formulario label{
+	display: block;
+	width:175px;
+  font-weight:bold;
+  font-size:1.1em;
+  color:#FFF;
+  color: #FFFFFF;
+  text-shadow: 1.5px 1.5px 5px #000;
+  margin-bottom: 3px;
+}
+#formulario input{
+	display: block;
+	width:275px;
+	margin-bottom: 4.7px;
+  border: none;
+}
+#formulario textarea{
+	display: block;
+	width:275px;
+	height: 200px;
+	margin-bottom: 5px;
+  border: none;
+}
+.contacta{
+  width: 100%;
+  background: url("../img/contactabg.jpg") no-repeat center;
+  background-size: cover;
+  position: relative;
+}
+.botonAcceder {
+  background-color: #4CAF50;
+  color: white;
+  padding: 17px 21px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+.botonAcceder:hover {
+  opacity: 1;
+}
+
+.contacta h1{
+  padding-top: 25px;
+  display: block;
+  text-align: center;
+  color: #FFF;
+  text-shadow: 1.5px 1.5px 5px #000;
+}

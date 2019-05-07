@@ -1,0 +1,248 @@
+@media only screen and (max-width: 1880px) {
+  #slides{
+    height: 553px;
+  }
+}
+@media only screen and (max-width: 1847px) {
+  #slides{
+    height: 543px;
+  }
+}
+@media only screen and (max-width: 1814px) {
+  #slides{
+    height: 533px;
+  }
+}
+@media only screen and (max-width: 1780px) {
+  #slides{
+    height: 523px;
+  }
+}
+@media only screen and (max-width: 1747px) {
+  #slides{
+    height: 513px;
+  }
+}
+@media only screen and (max-width: 1714px) {
+  #slides{
+    height: 503px;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  #slides{
+    height: 493px;
+  }
+}
+@media only screen and (max-width: 1647px) {
+  #slides{
+    height: 483px;
+  }
+}
+@media only screen and (max-width: 1614px) {
+  #slides{
+    height: 473px;
+  }
+}
+@media only screen and (max-width: 1580px) {
+  #slides{
+    height: 463px;
+  }
+}
+@media only screen and (max-width: 1547px) {
+  #slides{
+    height: 453px;
+  }
+}
+@media only screen and (max-width: 1514px) {
+  #slides{
+    height: 443px;
+  }
+}
+@media only screen and (max-width: 1480px) {
+  #slides{
+    height: 433px;
+  }
+}
+@media only screen and (max-width: 1447px) {
+  #slides{
+    height: 423px;
+  }
+}
+@media only screen and (max-width: 1414px) {
+  #slides{
+    height: 413px;
+  }
+}
+@media only screen and (max-width: 1380px) {
+  #slides{
+    height: 403px;
+  }
+}
+@media only screen and (max-width: 1347px) {
+  #slides{
+    height: 393px;
+}
+@media only screen and (max-width: 1314px) {
+  #slides{
+    height: 383px;
+}
+@media only screen and (max-width: 1280px) {
+  #slides{
+    height: 373px;
+  }
+}
+@media only screen and (max-width: 1247px) {
+  #slides{
+    height: 363px;
+  }
+}
+@media only screen and (max-width: 1214px) {
+  #slides{
+    height: 353px;
+  }
+}
+@media only screen and (max-width: 1180px) {
+  #slides{
+    height: 343px;
+  }
+}
+@media only screen and (max-width: 1147px) {
+  #slides{
+    height: 333px;
+  }
+}
+@media only screen and (max-width: 1114px) {
+  #slides{
+    height: 323px;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  #slides{
+    height: 313px;
+  }
+}
+@media only screen and (max-width: 1047px) {
+  #slides{
+    height: 303px;
+  }
+}
+
+@media only screen and (max-width: 1014px) {
+  #slides{
+    height: 293px;
+  }
+}
+@media only screen and (max-width: 947px) {
+  #slides{
+    height: 283px;
+  }
+}
+@media only screen and (max-width: 914px) {
+  #slides{
+    height: 273px;
+  }
+}
+@media only screen and (max-width: 880px) {
+  #slides{
+    height: 263px;
+  }
+}
+@media only screen and (max-width: 847px) {
+  #slides{
+    height: 253px;
+  }
+}
+@media only screen and (max-width: 814px) {
+  #slides{
+    height: 243px;
+  }
+}
+@media only screen and (max-width: 780px) {
+  #slides{
+    height: 233px;
+  }
+}
+@media only screen and (max-width: 747px) {
+  #slides{
+    height: 223px;
+  }
+}
+@media only screen and (max-width: 714px) {
+  #slides{
+    height: 213px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  #slides{
+    height: 203px;
+  }
+}
+@media only screen and (max-width: 647px) {
+  #slides{
+    height: 193px;
+  }
+}
+@media only screen and (max-width: 614px) {
+  #slides{
+    height: 183px;
+  }
+}
+@media only screen and (max-width: 580px) {
+  #slides{
+    height: 173px;
+  }
+}
+@media only screen and (max-width: 547px) {
+  #slides{
+    height: 163px;
+  }
+}
+@media only screen and (max-width: 514px) {
+  #slides{
+    height: 153px;
+  }
+  section{
+    height: 300px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  #slides{
+    height: 143px;
+  }
+}
+@media only screen and (max-width: 447px) {
+  #slides{
+    height: 133px;
+  }
+}
+@media only screen and (max-width: 414px) {
+  #slides{
+    height: 123px;
+  }
+  section{
+    height: 400px;
+  }
+  nav img{
+    height: 100px;
+  }
+  .icono{
+    top:3%;
+  }
+}
+@media only screen and (max-width: 380px) {
+  #slides{
+    height: 113px;
+  }
+  nav img{
+    height: 90px;
+  }
+  section{
+    height: 450px;
+  }
+  .icono{
+    top:3%;
+    font-size: 35px
+  }
+}
