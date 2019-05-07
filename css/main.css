@@ -84,39 +84,53 @@ nav img{
 	-o-transition: opacity 1.5s;
 	transition: opacity 1.5s;
 }
-
 .showing{
 	opacity: 1;
 }
 
+
+/*Inicio de secciones*/
 section{
-  height: 250px;
   width: 100%;
+  overflow: auto;
+  color: #FFF;
+  text-align: justify;
+  text-shadow: 1.5px 1.5px 5px #000;
 }
 section img{
-  background: white;
-  width: 200px;
-  border-radius: 50%;
+  width: 350px;
+}
+section h2{
+  text-align: center;
 }
 .Servicios{
   background-color:#4CAF50;
 }
-footer{
-  width: 100%;
-  background: #282828;
-  color: #FFF;
-  height: 50px;
-  text-align: center;
-  padding-top: 5px;
+.Servicios img{
+  float: left;
 }
-
-
-
-
-
-
-
-/*Estilos formulario*/
+.Servicios p{
+  margin-right: 20%;
+}
+.Contacto{
+  background-color: #A00;
+}
+.Contacto img{
+  float: right;
+}
+.Contacto p{
+  margin-left: 20%;
+}
+.Acerca{
+  background-color: #d4a42f;
+}
+.Acerca img{
+  float: left;
+}
+.Acerca p{
+  margin-right: 20%;
+}
+/*estilos formulario*/
 
 #formulario {
     width:20%;
@@ -171,4 +185,15 @@ footer{
   text-align: center;
   color: #FFF;
   text-shadow: 1.5px 1.5px 5px #000;
+}
+
+
+/*inicio pie de pagina*/
+footer{
+  width: 100%;
+  background: #282828;
+  color: #FFF;
+  height: 50px;
+  text-align: center;
+  padding-top: 5px;
 }
