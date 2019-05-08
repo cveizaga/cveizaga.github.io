@@ -10,7 +10,7 @@ body{
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: rgba(150, 150, 150, 0.85);
+  background-color: rgba(220, 220, 220, 0.85);
   overflow-y: hidden;
   transition: 0.9s;
 }
@@ -130,6 +130,12 @@ section h2{
 .Acerca p{
   margin-right: 20%;
 }
+
+.sacerca{
+  width: 80%;
+  text-align: justify;
+  margin: 0 auto;
+}
 /*estilos formulario*/
 
 #formulario {
@@ -144,7 +150,7 @@ section h2{
   font-weight:bold;
   font-size:1.1em;
   color:#FFF;
-  color: #FFFFFF;
+  color: #FFF;
   text-shadow: 1.5px 1.5px 5px #000;
   margin-bottom: 3px;
 }
@@ -169,7 +175,7 @@ section h2{
 }
 .botonAcceder {
   background-color: #4CAF50;
-  color: white;
+  color: #FFF;
   padding: 17px 21px;
   border: none;
   cursor: pointer;
@@ -187,7 +193,32 @@ section h2{
   text-shadow: 1.5px 1.5px 5px #000;
 }
 
-
+/*inicio header*/
+header{
+  width: 80%;
+  margin: 0 10%;
+  height: 200px;
+  background: url("../img/contactabg.jpg") no-repeat center;
+  background-size: cover;
+  color: #FFF;
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+}
+header h1{
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
 /*inicio pie de pagina*/
 footer{
   width: 100%;
