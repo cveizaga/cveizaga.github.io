@@ -147,7 +147,7 @@ header{
 .sacerca-L, .sacerca-R{
   overflow: auto;
   text-align: justify;
-  width: 100%;
+  width: 50%;
   margin: auto;
   margin-bottom: 30px;
 }
@@ -155,12 +155,12 @@ header{
   float: left;
   width: 350px;
   margin-right: 25px;
+
 }
 
 .sacerca-R img{
   float: right;
   width: 350px;
-  margin-left: 25px;
 }
 .fondo-n{
   width: 100%;

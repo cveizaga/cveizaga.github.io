@@ -237,4 +237,7 @@
     width: 100%;
     margin: 0;
   }
+  .sacerca-L img,.sacerca-r img{
+    margin-bottom: 25px;
+  }
 }
