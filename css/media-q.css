@@ -233,4 +233,8 @@
   section img{
     width: 100px;
   }
+  video{
+    width: 100%;
+    margin: 0;
+  }
 }
