@@ -238,8 +238,8 @@
     margin: 0;
   }
   .sacerca-L, .sacerca-R{
-    width: 100%;
-    padding: 5px;
+    width: 90%;
+    margin: 0 5%;
   }
   .sacerca-L img, .sacerca-R img{
     width: 100%;
