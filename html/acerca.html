@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
 <link rel="stylesheet" href="../css/main.css">
 <link rel="stylesheet" href="../css/media-q.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
 <nav>
@@ -22,7 +23,14 @@
 
 <header>
 <h1 class="titulo">Acerca de nosotros</h1>
+
+<button type="pausa" name="pausa" class="icono-pausa" onclick="pausar()"><i class="material-icons">pause_circle_outline</i></button>
+<button type="button" name="reproducir" class="icono-play" onclick="reproducir()"><i class="material-icons">play_circle_outline</i></button>
+
 </header>
+<audio id="sonido">
+  <source src="../media/gambas.mp3" type="audio/mpeg">
+</audio>
 <div class="fondo-n">
 <video autoplay loop muted>
     <source src="../media/video.mp4" type="video/mp4">

@@ -86,11 +86,12 @@ nav img{
 
 /*pagina index*/
 section{
-  width: 100%;
+  width: 70%;
   overflow: auto;
   color: #FFF;
   text-align: justify;
   text-shadow: 1.5px 1.5px 5px #000;
+  margin: 0 15%;
 }
 section img{
   width: 350px;
@@ -161,7 +162,6 @@ header{
 .sacerca-R img{
   float: right;
   width: 350px;
-  margin-left: 25px;
 }
 .fondo-n{
   width: 100%;
@@ -231,7 +231,29 @@ video{
   text-shadow: 1.5px 1.5px 5px #000;
 }
 
+/*Servicios.html*/
+#menu_se {
+  border-collapse: collapse;
+  width: 70%;
+  margin: 0 15%;
+}
 
+#menu_se td, #menu_se th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#menu_se tr:nth-child(even){background-color: #f2f2f2;}
+
+#menu_se tr:hover {background-color: #ddd;}
+
+#menu_se th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
 
 
 /*inicio pie de pagina*/

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE platos [
+<!ELEMENT platos (entrantes, carnes, ensaladas, especialidades, postre)>
+<!ELEMENT entrantes (frios, calientes)>
+<!ELEMENT frios (plato)+>
+<!ELEMENT calientes (plato)+>
+
+<!ELEMENT carnes (vacunos, aves, porcino, mariscos, pescados)>
+<!ELEMENT vacunos (plato)+>
+<!ELEMENT aves (plato)+>
+<!ELEMENT porcino (plato)+>
+<!ELEMENT mariscos (plato)+>
+<!ELEMENT pescados (plato)+>
+
+<!ELEMENT ensaladas (plato)+>
+<!ELEMENT especialidades (plato)+>
+<!ELEMENT postre (plato)+>
+<!ELEMENT plato (#PCDATA)>
+<!ATTLIST plato tipo (entrante_frio | entrante_caliente | vacuno | ave| cerdo | marisco | pescado | ensalada | especial | postre) #REQUIRED>
+]>
+<platos>
+  <entrantes>
+    <frios>
+      <plato tipo="entrante_frio">entrante frio-A</plato>
+      <plato tipo="entrante_frio">entrante frio-B</plato>
+      <plato tipo="entrante_frio">entrante frio-C</plato>
+    </frios>
+    <calientes>
+      <plato tipo="entrante_caliente">entrante caliente-A</plato>
+      <plato tipo="entrante_caliente">entrante caliente-B</plato>
+      <plato tipo="entrante_caliente">entrante caliente-C</plato>
+    </calientes>
+  </entrantes>
+  <carnes>
+    <vacunos>
+      <plato tipo="vacuno">plato carne vacuno-A</plato>
+      <plato tipo="vacuno">plato carne vacuno-B</plato>
+      <plato tipo="vacuno">plato carne vacuno-C</plato>
+    </vacunos>
+
+    <aves>
+      <plato tipo="ave">plato carne ave-A</plato>
+      <plato tipo="ave">plato carne ave-B</plato>
+      <plato tipo="ave">plato carne ave-C</plato>
+    </aves>
+
+    <porcino>
+      <plato tipo="cerdo">plato carne cerdo-A</plato>
+      <plato tipo="cerdo">plato carne cerdo-B</plato>
+      <plato tipo="cerdo">plato carne cerdo-C</plato>
+    </porcino>
+
+    <mariscos>
+      <plato tipo="marisco">plato carne marisco-A</plato>
+      <plato tipo="marisco">plato carne marisco-B</plato>
+      <plato tipo="marisco">plato carne marisco-C</plato>
+    </mariscos>
+
+    <pescados>
+      <plato tipo="pescado">plato carne pesscado-A</plato>
+      <plato tipo="pescado">plato carne pesscado-B</plato>
+      <plato tipo="pescado">plato carne pesscado-C</plato>
+    </pescados>
+  </carnes>
+
+  <ensaladas>
+    <plato tipo="ensalada">ensalada-A</plato>
+    <plato tipo="ensalada">ensalada-B</plato>
+    <plato tipo="ensalada">ensalada-C</plato>
+  </ensaladas>
+  <especialidades>
+    <plato tipo="especial">plato especial-A</plato>
+    <plato tipo="especial">plato especial-B</plato>
+    <plato tipo="especial">plato especial-C</plato>
+  </especialidades>
+  <postre>
+    <plato tipo="postre">postre-A</plato>
+    <plato tipo="postre">postre-B</plato>
+    <plato tipo="postre">postre-C</plato>
+  </postre>
+</platos>

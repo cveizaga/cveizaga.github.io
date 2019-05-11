@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catering [
+<!ELEMENT catering (menu)+>
+<!ELEMENT menu (descripcion)>
+<!ATTLIST menu id_menu ID #REQUIRED>
+<!ATTLIST menu precio CDATA #REQUIRED>
+<!ELEMENT descripcion (#PCDATA)>
+]>
+<catering>
+  <menu id_menu="a" precio="10">
+    <descripcion>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas augue nec ante ullamcorper, at sagittis justo rhoncus.
+    </descripcion>
+  </menu>
+
+  <menu id_menu="b" precio="20">
+    <descripcion>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas augue nec ante ullamcorper, at sagittis justo rhoncus.
+    </descripcion>
+  </menu>
+
+  <menu id_menu="c" precio="30">
+    <descripcion>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas augue nec ante ullamcorper, at sagittis justo rhoncus.
+    </descripcion>
+  </menu>
+
+  <menu id_menu="d" precio="50">
+    <descripcion>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas augue nec ante ullamcorper, at sagittis justo rhoncus.
+    </descripcion>
+  </menu>
+
+  <menu id_menu="e" precio="80">
+    <descripcion>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas augue nec ante ullamcorper, at sagittis justo rhoncus.
+    </descripcion>
+  </menu>
+
+  <menu id_menu="f" precio="130">
+    <descripcion>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas augue nec ante ullamcorper, at sagittis justo rhoncus.
+    </descripcion>
+  </menu>
+</catering>

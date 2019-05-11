@@ -5,11 +5,25 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
 <link rel="stylesheet" href="../css/main.css">
 <link rel="stylesheet" href="../css/media-q.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<script type="text/javascript">
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      myFunction(this);
+    }
+  };
+  xhttp.open("GET", "../xml/precios.xml", true);
+  xhttp.send();
+}
+window.onload=loadDoc;
+</script>
 </head>
 
 <body>
 <nav>
-	<a href="index.html"><img src="../img/logo.png" alt="logo"></a>
+	<a href="../index.html"><img src="../img/logo.png" alt="logo"></a>
 	<div id="menu" class="menu">
 	  <a href="javascript:void(0)" class="cerrar" onclick="cerrar()">&times;</a>
 	  <div class="menu-contenido">
@@ -21,10 +35,7 @@
 	<span onclick="abrir()" class="icono">☰</span>
 </nav>
 
-
-
-
-
+<table id="menu_se"></table>
 
 
 <footer>

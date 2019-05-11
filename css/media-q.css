@@ -22,11 +22,29 @@
   #slides{
     height: 518px;
   }
+ .Servicios p{
+	margin-right: 10%;
+ }
+ .Contacto p{
+	margin-left: 10%;
+ }
+ .Acerca p{
+	margin-right: 10%;
+ }
 }
 @media only screen and (max-width: 1714px) {
   #slides{
     height: 508px;
   }
+ .Servicios p{
+	margin-right: 10%;
+ }
+ .Contacto p{
+	margin-left: 10%;
+ }
+ .Acerca p{
+	margin-right: 10%;
+ }
 }
 @media only screen and (max-width: 1680px) {
   #slides{
@@ -152,11 +170,15 @@
   #slides{
     height: 258px;
   }
+  section img {
+    width: 275px;
+  }
 }
 @media only screen and (max-width: 814px) {
   #slides{
     height: 248px;
   }
+
 }
 @media only screen and (max-width: 780px) {
   #slides{
@@ -171,6 +193,9 @@
 @media only screen and (max-width: 714px) {
   #slides{
     height: 218px;
+  }
+  section img {
+    width: 250px;
   }
 }
 
@@ -187,6 +212,9 @@
 @media only screen and (max-width: 614px) {
   #slides{
     height: 188px;
+  }
+  section img {
+    width: 100px;
   }
 }
 @media only screen and (max-width: 580px) {
