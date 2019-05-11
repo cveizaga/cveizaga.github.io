@@ -261,6 +261,10 @@
   section img{
     width: 100px;
   }
+  section{
+    width: 100%;
+    margin: 0px;
+  }
   video{
     width: 100%;
     margin: 0;
@@ -272,8 +276,5 @@
   .sacerca-L img, .sacerca-R img{
     width: 100%;
     margin-bottom: 25px;
-  }
-  section{
-    width=100%;
   }
 }
