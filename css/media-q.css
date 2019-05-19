@@ -133,6 +133,10 @@
   #slides{
     height: 328px;
   }
+  section{
+    width: 100%;
+    margin: 0px;
+  }
 }
 
 @media only screen and (max-width: 1080px) {
@@ -176,6 +180,7 @@
   }
   section img {
     width: 275px;
+    margin-bottom: 75px;
   }
 }
 @media only screen and (max-width: 814px) {
@@ -188,6 +193,20 @@
   #slides{
     height: 238px;
   }
+  video{
+    width: 70%;
+    margin: 0 15%;
+  }
+  .sacerca-R{
+     width: 70%;
+     margin: 0 15%;
+   }
+   .sacerca-R img{
+     width: 100%;
+     margin-bottom: 25px;
+     margin-left: 10px;
+     margin-right: 10px;
+   }
 }
 @media only screen and (max-width: 747px) {
   #slides{
@@ -200,6 +219,10 @@
   }
   section img {
     width: 250px;
+  }
+  video{
+    width: 80%;
+    margin: 0 10%;
   }
 }
 
@@ -219,6 +242,7 @@
   }
   section img {
     width: 100px;
+    margin-bottom: 0px;
   }
 }
 @media only screen and (max-width: 580px) {
@@ -240,6 +264,20 @@
   #slides{
     height: 148px;
   }
+  .sacerca-R{
+     width: 90%;
+     margin: 0 5%;
+   }
+   .sacerca-R img{
+     width: 100%;
+     margin-bottom: 25px;
+     margin-left: 10px;
+     margin-right: 10px;
+   }
+   video{
+     width: 100%;
+     margin: 0;
+   }
 }
 @media only screen and (max-width: 447px) {
   #slides{
@@ -263,6 +301,7 @@
   nav img{
     height:125px;
   }
+
 }
 @media only screen and (max-width: 380px) {
   #slides{
@@ -282,18 +321,9 @@
     width: 100%;
     margin: 0px;
   }
-  video{
-    width: 100%;
-    margin: 0;
+
+  .caja-audio button {
+  	padding:10px 10px;  
   }
-  .sacerca-L, .sacerca-R{
-    width: 90%;
-    margin: 0 5%;
-  }
-  .sacerca-L img, .sacerca-R img{
-    width: 100%;
-    margin-bottom: 25px;
-    margin-left: 10px;
-    margin-right: 10px; 
-  }
+
 }
